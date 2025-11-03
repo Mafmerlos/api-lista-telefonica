@@ -9,9 +9,7 @@ namespace lista_telefonica_api
     {
         public static void Register(HttpConfiguration config)
         {
-            // Configuração e serviços de API Web
-
-            // Rotas de API Web
+       
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
