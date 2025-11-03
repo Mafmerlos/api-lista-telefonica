@@ -1,13 +1,14 @@
-# Arquivos e pastas do Visual Studio
+
 .vs/
 [Bb]in/
 [Oo]bj/
 *.user
 *.suo
 
-# Arquivo de configuração local (NUNCA envie este)
+
 appsettings.Development.json
 
-# Se você usa o Entity Framework Migrations
+
 *Migration*.Designer.cs
 *Migration*.cs
+Web.config

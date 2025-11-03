@@ -186,6 +186,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Web-example.config" />
+    <Content Include="Web-example.Debug.config">
+      <DependentUpon>Web-example.config</DependentUpon>
+    </Content>
+    <Content Include="Web-example.Release.config">
+      <DependentUpon>Web-example.config</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

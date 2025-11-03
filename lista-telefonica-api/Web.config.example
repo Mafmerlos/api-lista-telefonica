@@ -6,6 +6,10 @@
 <configuration>
   <appSettings>
   </appSettings>
+	<connectionStrings>
+		<add name="ListaTelefonicaDB"
+			 connectionString="mongodb+srv://matheusmerlos02_db_user:COLOCAR_SENHA_DO_SEU_BD@cluster.tvuo5si.mongodb.net/?appName=Cluster0" />
+	</connectionStrings>
   <system.web>
     <compilation debug="true" targetFramework="4.7.2" />
     <httpRuntime targetFramework="4.7.2" />
